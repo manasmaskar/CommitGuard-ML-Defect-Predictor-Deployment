@@ -329,7 +329,7 @@ def main():
         
         # Show example format
         with st.expander("View Example JSON Format"):
-            example_json = EXAMPLES["Medium Risk PR - Moderate Complexity"]
+            example_json = EXAMPLES["🟡 Medium Risk PR - Moderate Complexity"]
             st.json(example_json)
             st.download_button(
                 "Download Example JSON",
