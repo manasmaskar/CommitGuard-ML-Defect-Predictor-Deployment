@@ -21,7 +21,7 @@ st.set_page_config(
 @st.cache_resource
 def load_model():
     try:
-        model = joblib.load('models/decision_tree_model.pkl')
+        model = joblib.load('models/alternatives/recall_optimized_model.pkl')
         return model
     except:
         st.error("Model not found. Please train the model first.")
