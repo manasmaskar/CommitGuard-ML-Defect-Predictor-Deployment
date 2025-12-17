@@ -1,0 +1,23 @@
+{
+  "cbo": 8,
+  "wmc": 45,
+  "dit": 3,
+  "rfc": 38,
+  "lcom": 150,
+  "totalMethods": 18,
+  "totalFields": 6,
+  "nosi": 22,
+  "loc": 280,
+  "returnQty": 12,
+  "loopQty": 8,
+  "comparisonsQty": 25,
+  "tryCatchQty": 3,
+  "parenthesizedExpsQty": 15,
+  "stringLiteralsQty": 20,
+  "numbersQty": 30,
+  "assignmentsQty": 40,
+  "mathOperationsQty": 10,
+  "variablesQty": 25,
+  "maxNestedBlocks": 4,
+  "uniqueWordsQty": 180
+}

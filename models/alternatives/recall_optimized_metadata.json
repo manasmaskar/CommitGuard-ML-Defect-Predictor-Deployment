@@ -1,0 +1,23 @@
+{
+  "model_type": "DecisionTreeClassifier",
+  "strategy": "recall_optimized",
+  "class_weight": {
+    "0": 1,
+    "1": 2
+  },
+  "test_accuracy": 0.7531,
+  "test_roc_auc": 0.8034,
+  "test_recall": 0.8628,
+  "false_negatives": 83,
+  "overfit_gap": 0.03,
+  "best_params": {
+    "class_weight": {
+      "0": 1,
+      "1": 2
+    },
+    "criterion": "entropy",
+    "max_depth": 4,
+    "min_samples_leaf": 10,
+    "min_samples_split": 10
+  }
+}

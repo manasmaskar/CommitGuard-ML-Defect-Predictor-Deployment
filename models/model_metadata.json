@@ -1,0 +1,38 @@
+{
+  "training_date": "2025-12-16T17:34:36.983891",
+  "best_params": {
+    "criterion": "entropy",
+    "max_depth": 4,
+    "min_samples_leaf": 20,
+    "min_samples_split": 10
+  },
+  "best_cv_score": 0.7999784610886517,
+  "test_accuracy": 0.763831544178365,
+  "test_roc_auc": 0.8035321713989582,
+  "feature_columns": [
+    "cbo",
+    "wmc",
+    "dit",
+    "rfc",
+    "lcom",
+    "totalMethods",
+    "totalFields",
+    "nosi",
+    "loc",
+    "returnQty",
+    "loopQty",
+    "comparisonsQty",
+    "tryCatchQty",
+    "parenthesizedExpsQty",
+    "stringLiteralsQty",
+    "numbersQty",
+    "assignmentsQty",
+    "mathOperationsQty",
+    "variablesQty",
+    "maxNestedBlocks",
+    "uniqueWordsQty"
+  ],
+  "model_type": "DecisionTreeClassifier",
+  "tree_depth": 4,
+  "n_leaves": 13
+}
