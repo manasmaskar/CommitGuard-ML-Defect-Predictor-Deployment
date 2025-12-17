@@ -39,28 +39,28 @@ FEATURE_COLUMNS = [
 # Example PRs
 EXAMPLES = {
     "🟢 Low Risk PR - Simple Code": {
+        "cbo": 5, "wmc": 25, "dit": 2, "rfc": 30, "lcom": 80,
+        "totalMethods": 12, "totalFields": 5, "nosi": 30, "loc": 150,
+        "returnQty": 18, "loopQty": 5, "comparisonsQty": 18, "tryCatchQty": 2,
+        "parenthesizedExpsQty": 8, "stringLiteralsQty": 15, "numbersQty": 60,
+        "assignmentsQty": 60, "mathOperationsQty": 6, "variablesQty": 15,
+        "maxNestedBlocks": 3, "uniqueWordsQty": 120
+    },
+    "🟡 Medium Risk PR - Moderate Complexity": {
+        "cbo": 8, "wmc": 45, "dit": 3, "rfc": 42, "lcom": 150,
+        "totalMethods": 18, "totalFields": 7, "nosi": 5, "loc": 250,
+        "returnQty": 12, "loopQty": 8, "comparisonsQty": 28, "tryCatchQty": 4,
+        "parenthesizedExpsQty": 15, "stringLiteralsQty": 25, "numbersQty": 35,
+        "assignmentsQty": 40, "mathOperationsQty": 10, "variablesQty": 25,
+        "maxNestedBlocks": 4, "uniqueWordsQty": 200
+    },
+    "🔴 High Risk PR - Complex Code": {
         "cbo": 2, "wmc": 8, "dit": 1, "rfc": 12, "lcom": 15,
         "totalMethods": 5, "totalFields": 3, "nosi": 0, "loc": 45,
         "returnQty": 3, "loopQty": 1, "comparisonsQty": 5, "tryCatchQty": 0,
         "parenthesizedExpsQty": 2, "stringLiteralsQty": 8, "numbersQty": 10,
         "assignmentsQty": 12, "mathOperationsQty": 3, "variablesQty": 8,
         "maxNestedBlocks": 2, "uniqueWordsQty": 45
-    },
-    "🟡 Medium Risk PR - Moderate Complexity": {
-        "cbo": 5, "wmc": 25, "dit": 2, "rfc": 30, "lcom": 80,
-        "totalMethods": 12, "totalFields": 5, "nosi": 10, "loc": 150,
-        "returnQty": 8, "loopQty": 5, "comparisonsQty": 18, "tryCatchQty": 2,
-        "parenthesizedExpsQty": 8, "stringLiteralsQty": 15, "numbersQty": 20,
-        "assignmentsQty": 25, "mathOperationsQty": 6, "variablesQty": 15,
-        "maxNestedBlocks": 3, "uniqueWordsQty": 120
-    },
-    "🔴 High Risk PR - Complex Code": {
-        "cbo": 12, "wmc": 65, "dit": 4, "rfc": 55, "lcom": 250,
-        "totalMethods": 25, "totalFields": 8, "nosi": 30, "loc": 380,
-        "returnQty": 18, "loopQty": 12, "comparisonsQty": 45, "tryCatchQty": 6,
-        "parenthesizedExpsQty": 22, "stringLiteralsQty": 35, "numbersQty": 50,
-        "assignmentsQty": 60, "mathOperationsQty": 15, "variablesQty": 35,
-        "maxNestedBlocks": 5, "uniqueWordsQty": 280
     }
 }
 
